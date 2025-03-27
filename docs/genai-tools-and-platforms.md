@@ -38,12 +38,12 @@ Unsloth is really built for fine-tuning faster and with lower memory. But you ca
 
 ## Cloud Hosts/Platforms
 
-### [Runpod.io](https://www.runpod.io/) --> so far the cheapest options for different GPUs
-One of the best features of runpod.io is the Serverless deployment. You can simply choose a GPU stack and point to a huggingface repo. It will spin up an inference API endpoint for you. Best part is that you won't get charged when there is no compute load. But the cold-start time is about 6 - 10 seconds.
+### [Runpod.io](https://www.runpod.io/)
+So far the **cheapest** option for different GPUs. One of the best features of runpod.io is the Serverless deployment. You can simply choose a GPU stack and point to a huggingface repo. It will spin up an inference API endpoint for you. Best part is that you won't get charged when there is no compute load. But the cold-start time is about 6 - 10 seconds.
 Runpod has a spot discount concept but you will never find anything available.
 
 ### [Digital Ocean GPU Droplet](https://www.digitalocean.com/pricing/gpu-droplets)
-Cheapest H100
+**Cheapest for H100**
 
 ### Azure Spot VMs
 Same set of GPUs but 85-90% cheaper. But with 80-95% availability and depends on available excess capacity in your deployment region.
